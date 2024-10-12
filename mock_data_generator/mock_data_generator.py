@@ -16,7 +16,7 @@ class MockDataGenerator:
 
     def generate_mock_data_files(self, num_files, words_per_file):
         """Generate 'num_files' text files, each containing 'words_per_file' random words."""
-        for i in tqdm(range(1, num_files + 1), desc="Generating files"):
+        for i in tqdm(range(1, num_files + 1), desc="Generating Files", unit="Files"):
             # Generate a set of random words
             random_words = self.generate_random_words(words_per_file)
 
