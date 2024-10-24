@@ -6,6 +6,7 @@ This version of the mock text generator uses SQLite for a faster way of getting 
 - **Python 3.9+**
 - **Install dependencies:** `pip install -r requirements.txt`
 - **Enable the setup script as executable (Linux):** `chmod +x setup.sh`
+- **Run the setup script to setup a python virtual environment and automatically install dependencies (Linux):** `./setup.sh `
 
 ## Usage
 
